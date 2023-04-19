@@ -1,0 +1,78 @@
+.profile-container {
+  background: linear-gradient(90deg, #00f7ff, #0088ff);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-wrapper {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Set the background color to smoky transparent */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Add a smoky effect to the wrapper */
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+}
+
+.pw-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aquamarine; */
+  flex: 2;
+}
+
+.pw-left-top > img {
+  margin-bottom: 10px;
+}
+.pw-left-top-links {
+  display: flex;
+  margin: 10px;
+}
+
+.pw-left-top-links > h3 {
+  margin: 10px;
+}
+
+.pw-left-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pw-left-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.pw-right {
+  background: linear-gradient(90deg, #00f7ff, #0088ff);
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  border-radius: 10px;
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1rem;
+}
+.profile-l {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.img-container {
+  background-color: red;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}

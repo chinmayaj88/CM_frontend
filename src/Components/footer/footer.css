@@ -1,0 +1,48 @@
+
+.footer-wrapper {
+  height: 250px;
+  background: linear-gradient(90deg, #00f7ff, #0088ff);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-left {
+  margin: 1% 0 0 2%;
+}
+.footer-right {
+  margin: 1% 2% 0 0;
+}
+
+.footer-mid {
+  margin-top: 1%;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+.link {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+ letter-spacing: 1px;
+}
+
+.footer-li {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* DARK STYLES */
+.footer-wrapper.dark {
+  background: #0091c9;
+  color: white;
+}
+
+.link.dark {
+  background-color: transparent;
+  color: black;
+}
