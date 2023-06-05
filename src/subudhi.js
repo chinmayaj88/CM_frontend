@@ -1,0 +1,1 @@
+export const apple = [{ name: "iphone6", price: 90000 }]
